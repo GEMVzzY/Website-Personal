@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Kalkulator <span>BMI</span></h1>
+        <p>Masukkan tinggi dan berat badan Anda untuk mengetahui indeks massa tubuh (BMI) Anda.</p>
+        <div class="input-container">
+            <label for="height">Tinggi Badan (cm):</label>
+            <input type="number" id="height" placeholder="Contoh: 170">
+        </div>
+        <div class="input-container">
+            <label for="weight">Berat Badan (kg):</label>
+            <input type="number" id="weight" placeholder="Contoh: 65">
+        </div>
+        <button onclick="calculateBMI()">Hitung BMI</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
